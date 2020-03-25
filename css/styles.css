@@ -1,0 +1,180 @@
+body {
+  /* font-family: 'Ubuntu', ; */
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+/* HEADING */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'montserrat-bold';
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* SECTION HEADING */
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+.colored-section {
+  /* background-image: url('https://trading-pro.net/wp-content/uploads/2019/03/cs.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 50%; */ */
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(191,98,186,1) 46%, rgba(44,159,182,1) 100%);
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* 3%top 15%left and right and 7%bottom*/
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* PRICING */
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* title */
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+  /* position: fixed;
+  top:0; */
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 0.90rem;
+  /* font-weight: */
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+#title-image {
+  position: absolute;
+  width: 90%;
+  /* transform: rotate(10deg); */
+  right: 10%;
+}
+
+/* Testimonials section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.big-heading {
+  font-family: Montserrat-Black;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* footer section */
+.social-icons {
+  margin: 20px 20px;
+}
+/* .tradingview-widget-container{
+  height: 600px;
+} */
+#tradingview_9dca7{
+  height:500px;
+}
+
+
+/* media query */
+@media(max-width:990px) {
+  #title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title .container-fluid {
+    text-align: center;
+  }
+
+  .nav-link {
+    font-size: 1.5rem;
+  }
+
+
+}

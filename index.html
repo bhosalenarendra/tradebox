@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tradebox</title>
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
+  <!-- bootstrap scripts -->
+
+  <script src="https://use.fontawesome.com/329ae3c3db.js"></script>
+  <!--Font Awesome-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar  navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#" data-aos="flip-left">Tradebox</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto" id="main-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#training">Training</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#demat">Open Account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+
+      <div class="row" data-aos="fade-up">
+        <div class="col-lg-6">
+          <h1 class="big-heading">Have a fear about doing trading online? Don't Worry we will do it for you!</h1>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"> <i class="fa fa-android" aria-hidden="true"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa fa-apple" aria-hidden="true"></i> Download</button>
+        </div>
+        <div class="col-lg-6">
+          <!-- TradingView Widget BEGIN -->
+          <div class="tradingview-widget-container">
+            <div id="tradingview_9dca7"></div>
+            <div class="tradingview-widget-copyright"><a href="https://in.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank"><span class="blue-text">AAPL Chart</span></a> by TradingView</div>
+            <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+            <script type="text/javascript">
+              new TradingView.widget({
+                "autosize": true,
+                "symbol": "NASDAQ:AAPL",
+                "interval": "D",
+                "timezone": "Asia/Kolkata",
+                "theme": "dark",
+                "style": "1",
+                "locale": "in",
+                "toolbar_bg": "#f1f3f6",
+                "enable_publishing": false,
+                "allow_symbol_change": true,
+                "studies": [
+                  "MACD@tv-basicstudies",
+                  "RSI@tv-basicstudies"
+                ],
+                "container_id": "tradingview_9dca7"
+              });
+            </script>
+          </div>
+          <!-- TradingView Widget END -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+    <!-- <div class="container-fluid features"> -->
+    <div class="container-fluid" data-aos="fade-up">
+      <h1>OUR FEATURES</h1>
+      <div class="row">
+        <div class="feature-box col-lg-3">
+          <i class="fa fa-check-circle fa-4x feature-icon" aria-hidden="true"></i>
+          <h3>Market Experience</h3>
+          <p>Hands-on expert team with realtime market experience</p>
+        </div>
+        <div class="feature-box col-lg-3">
+          <i class="fa fa-bullseye fa-4x feature-icon" aria-hidden="true"></i>
+          <h3>Guidence</h3>
+          <p>Ability to guide investors.</p>
+        </div>
+        <div class="feature-box col-lg-3">
+          <i class="fa fa-users fa-4x feature-icon" aria-hidden="true"></i>
+          <h3>Customer Relationship</h3>
+          <p>Strong and dependable customer relationships</p>
+        </div>
+        <div class="feature-box col-lg-3">
+          <i class="fa fa-certificate fa-4x feature-icon" aria-hidden="true"></i>
+          <h3>Personalized Attention</h3>
+          <p>Personalized attention during the course</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+    <!-- <div class="container-fluid"> -->
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false" data-aos="fade-down">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+
+      </a>
+    </div>
+    <!-- </div> -->
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section class="colored-section" id="press">
+    <div class="container-fluid">
+      <a href="#"><img data-aos="fade-down" class="press-logo" src="https://www.motilaloswal.com/images/logo1.jpg" alt="tnw-logo"></a>
+      <a href="#"><img data-aos="fade-down" class="press-logo" src="https://www.sharekhan.com/images/logo.png" alt="biz-insider-logo"></a>
+      <a href="#"><img data-aos="fade-down" class="press-logo" src="https://upstox.com/open-demat-account/images/logo.png" alt="mashable-logo"></a>
+      <a href="#"><img data-aos="fade-down" class="press-logo" src="https://zerodha.com/static/images/logo.svg" alt="mashable-logo"></a>
+      <a href="#"><img data-aos="fade-down" class="press-logo" src="https://www.bseindia.com/include/images/bselogo.png" alt="tc-logo"></a>
+      <a href="#"><img data-aos="fade-down" class="press-logo" src="https://www1.nseindia.com/common/images/logo.jpg" alt="mashable-logo"></a>
+    </div>
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+    <div class="container-fluid" data-aos="fade-up">
+      <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
+      <p>Simple and affordable price plans for your and your dog.</p>
+      <!-- <div class="card-deck"> -->
+      <div class="row">
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="feature-title">Chihuahua</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">Free</h2>
+              <p>5 Matches Per Day</p>
+              <p>10 Messages Per Day</p>
+              <p>Unlimited App Usage</p>
+              <button class="btn btn-outline-primary btn-lg btn-block" type="button">Sign Up</button>
+            </div>
+
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="feature-title">Labrador</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$49 / mo</h2>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button class="btn btn-primary btn-lg btn-block" type="button">Sign Up</button>
+            </div>
+
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="feature-title">Mastiff</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$99 / mo</h2>
+              <p>Pirority Listing</p>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <!-- <p>Unlimited App Usage</p> -->
+              <button class="btn btn-primary btn-lg btn-block" type="button">Sign Up</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+  </section>
+
+  <!-- Section Training -->
+  <section class="colored-section" id="training">
+    <div class="container-fluid" data-aos="fade-down">
+
+      <h2 class="section-heading">Sign Up For Course Now</h2>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <form class="" action="index.html" method="post" align="left">
+            <div class="form-group row">
+              <!-- <label for="firstname" class="col-sm-2 col-form-label">First Name:</label> -->
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <input type="text" class="form-control" id="lastname" placeholder="First Name" required>
+              </div>
+            </div>
+            <div class="form-group row">
+              <!-- <label for="lastname" class="col-sm-2 col-form-label">Last Name:</label> -->
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <input type="lastname" class="form-control" id="lastname" placeholder="Last Name" required>
+              </div>
+            </div>
+            <div class="form-group row">
+              <!-- <label for="email" class="col-sm-2 col-form-label">Email Address:</label> -->
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+              </div>
+            </div>
+            <div class="form-group row">
+              <!-- <label for="phone" class="col-sm-2 col-form-label">Contact No:</label> -->
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <input type="phone" class="form-control" id="phone" placeholder="Contact No" required>
+              </div>
+            </div>
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-2 pt-0">Choose Course</legend>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="basic-course" id="basic-course" value="option1" checked>
+                    <label class="form-check-label" for="basic-course">
+                      Basic
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="premium-course" id="premium-course" value="option2">
+                    <label class="form-check-label" for="premium-course">
+                      Premium
+                    </label>
+                  </div>
+
+                </div>
+              </div>
+            </fieldset>
+
+            <div class="form-group row">
+              <div class="col-sm-10">
+                <button type="submit" class="btn btn-primary">Sign Up Now</button>
+              </div>
+            </div>
+
+          </form>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <img src="https://media.giphy.com/media/uACoz3N0cUZdikpa01/giphy.gif" id="training-image" alt="training-image">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Section Product -->
+  <section class="white-section" id="products">
+    <div class="container-fluid" data-aos="fade-up">
+      <h2 class="section-heading">Our Products</h2>
+      <div class="row">
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="feature-title">Chihuahua</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">Free</h2>
+              <p>5 Matches Per Day</p>
+              <p>10 Messages Per Day</p>
+              <p>Unlimited App Usage</p>
+              <button class="btn btn-outline-primary btn-lg btn-block" type="button">Sign Up</button>
+            </div>
+
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="feature-title">Labrador</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$49 / mo</h2>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button class="btn btn-primary btn-lg btn-block" type="button">Sign Up</button>
+            </div>
+
+          </div>
+        </div>
+        <div class="pricing-column col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="feature-title">Mastiff</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$99 / mo</h2>
+              <p>Pirority Listing</p>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <!-- <p>Unlimited App Usage</p> -->
+              <button class="btn btn-primary btn-lg btn-block" type="button">Sign Up</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="colored-section" id="cta">
+    <!-- fade right -->
+    <div class="container-fluid" data-aos="fade-up">
+      <h3 class="big-heading">Find The True Trading Trainer Today!</h3>
+      <button type="button" class="btn btn-outline-light btn-lg download-button"> <i class="fa fa-android" aria-hidden="true"></i> Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa fa-apple" aria-hidden="true"></i> Download</button>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="white-section" id="footer">
+    <!-- fade left -->
+    <div class="container-fluid" data-aos="fade-up">
+      <i class="social-icons fab fa-facebook fa-3x"></i>
+      <i class="social-icons fab fa-twitter fa-3x"></i>
+      <i class="social-icons fab fa-instagram fa-3x"></i>
+      <i class="social-icons fab fa-youtube fa-3x"></i>
+      <p>© Copyright 2020 Tradebox</p>
+    </div>
+  </footer>
+
+
+  <!-- ANIMATION AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!--Navbar collapse for mobile phones -->
+  <script>
+    $(document).ready(function() {
+      $(".navbar-toggle").click(function() {
+        $(".collapse").collapse('toggle');
+      });
+      $("#main-nav").click(function() {
+        $(".collapse").collapse('hide');
+      });
+    });
+  </script>
+  <!-- collapsed end -->
+</body>
+
+</html>
